@@ -31,3 +31,16 @@ h4{
   img {
     width: 100%;
   }
+a{
+    color: #000000;
+}
+a:hover,
+a:focus{
+    color: #DDC5BC;
+}
+a:active{
+    color: #CBA79A
+}
+a:visited{
+    color: #595959
+}
