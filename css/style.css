@@ -80,6 +80,10 @@ a:visited{
   background-color: #DDC5BC;
   text-decoration: none;
 }
+header {
+  background-color: #ffffff;
+  padding: 70px 20px 20px 20px;
+}
 #hero
 #projects
 #about
