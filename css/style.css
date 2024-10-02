@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 p{
   font-family: "Outfit", sans-serif;
   font-size: 17px;
@@ -85,31 +88,32 @@ a:visited{
 .row {
   margin: 24px 0 60px 0;
 }
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Align logo to the left, nav to the right */
+  align-items: center; /* Vertically center the content */
+  padding: 70px 20px 20px 0px;
+  width: 100%;
+}
+
 .logo {
-  max-width: 104px;
+  max-width: 150px;
 }
-header {
-  background-color: #ffffff;
-  text-align: left;
-  padding: 70px 20px 20px 20px;
-  width: 100%;
-}
-nav {
-  display: inline-block;
-  width: 100%;
-}
-nav > ul {
+
+nav ul {
   list-style-type: none;
   padding: 0;
-  max-width: 174px;
+  margin: 0;
+  display: flex; /* Align nav items horizontally */
 }
-nav > ul > li {
-  display: inline-block;
-  max-width: 174px;
+
+nav ul li {
+  margin-left: 20px; /* Space between nav items */
 }
-nav > ul > li > a {
-  padding: 0 20px;
-  max-width: 174px;
+
+nav ul li a {
+  display: block;
+  padding: 0;
 }
 #contact {
   background-color: #FBFBF9;
