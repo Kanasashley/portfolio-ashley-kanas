@@ -1,8 +1,3 @@
-#hero
-#projects
-#about
-#casestudy
-#contact 
 p{
   font-family: "Outfit", sans-serif;
   font-size: 17px;
@@ -87,3 +82,8 @@ a:visited{
 .container {
   padding: 0 20px;
 }
+#hero
+#projects
+#about
+#casestudy
+#contact 
