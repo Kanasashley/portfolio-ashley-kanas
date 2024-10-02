@@ -85,6 +85,32 @@ a:visited{
 .row {
   margin: 24px 0 60px 0;
 }
+.logo {
+  max-width: 104px;
+}
+header {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 70px 20px 20px 20px;
+  width: 100%;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 174px;
+}
+nav > ul > li {
+  display: inline-block;
+  max-width: 174px;
+}
+nav > ul > li > a {
+  padding: 0 20px;
+  max-width: 174px;
+}
 #contact {
   background-color: #FBFBF9;
   padding: 20px;
@@ -93,7 +119,13 @@ a:visited{
   background-color: #FBFBF9;
   padding: 20px;
 }
-#projects
-#about
-#casestudy
-
+#projects {
+  background-color: #ffffff;
+}
+#about {
+  background-color: #ffffff;
+}
+#casestudy {
+  background-color: #ffffff;
+  padding: 20px;
+}
