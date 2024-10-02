@@ -85,8 +85,15 @@ a:visited{
 .row {
   margin: 24px 0 60px 0;
 }
-#hero
+#contact {
+  background-color: #FBFBF9;
+  padding: 20px;
+}
+#hero {
+  background-color: #FBFBF9;
+  padding: 20px;
+}
 #projects
 #about
 #casestudy
-#contact 
+
