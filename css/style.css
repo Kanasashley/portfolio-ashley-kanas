@@ -176,6 +176,10 @@ footer div div p {
   margin-bottom: 20px; 
 }
 
+.top-margins {
+  margin: 40px 0;
+}
+
 #hero {
   background-color: #FBFBF9;
   padding: 20px;
@@ -184,6 +188,7 @@ footer div div p {
   background-color: #ffffff;
 }
 #about {
+  margin: 20px 20px 40px;
   background-color: #ffffff;
 }
 #casestudy {
