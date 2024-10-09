@@ -59,6 +59,7 @@ a:visited{
   border-radius: 20px;
   text-decoration: none;
   transition: 0.2s opacity;
+  margin-right: auto;
 }
 .button:hover {
   background-color: #DDC5BC;
@@ -126,10 +127,53 @@ main , footer {
   top: 130px;
   z-index: 1;
 }
+
+.contact-buttons {
+  max-width: 353px;
+  margin: 40px 0;
+}
+
+.email {
+  list-style: none;
+  display: inline-block;
+  margin-right: auto;
+}
+
+.social {
+  float: right;
+  margin-left: auto;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social ul li {
+  margin-left: 24px; /* Space between the social buttons */
+}
+
+.social ul li a {
+  display: block;
+}
+
 #contact {
   background-color: #FBFBF9;
   padding: 20px;
 }
+
+footer div p {
+  margin: 40px 0;
+}
+
+footer div div p {
+  text-align: center; /* Center align the text */
+  margin-top: 60px; 
+  margin-bottom: 20px; 
+
+
 #hero {
   background-color: #FBFBF9;
   padding: 20px;
