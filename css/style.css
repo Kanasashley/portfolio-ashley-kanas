@@ -1,39 +1,144 @@
 * {
   box-sizing: border-box;
 }
+
 p{
   font-family: "Outfit", sans-serif;
-  font-size: 17px;
+  font-size: 17pt;
   font-weight: 200;
-  line-height: 1.5;
+  line-height: 150%;
 }
+
 h2{
   font-family: "Outfit", sans-serif;
-  font-size: 22px;
+  font-size: 22pt;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 150%;
 }
+
 h1{
     font-family: "Outfit", sans-serif;
-    font-size: 32px;
+    font-size: 32pt;
     font-weight: 300;
-    line-height: 1.5;
+    line-height: 150%;
 }
+
 h3{
   font-family: "Outfit", sans-serif;
-  font-size: 20px;
+  font-size: 20pt;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 150%;
 }
+
 h4{
     font-family: "Outfit", sans-serif;
-    font-size: 17px;
+    font-size: 17pt;
     font-weight: 300;
-    line-height: 1.5;
-  }
-  img {
-    width: 100%;
-  }
+    line-height: 150%;
+}
+
+.crave-h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 24pt;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.crave-h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 17pt;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.crave-h2-centered {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 17pt;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+
+.crave-p1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 17pt;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 72pt;
+  line-height: 150%;
+}
+
+.persona-img {
+  max-width: 400px;
+  height: auto;
+}
+
+.space {
+  margin: 60px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.jtbd-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.jtbd {
+  display: inline-block;
+  border: 2px solid #FFCE57;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 300px;
+}
+
+.flows {
+  display: inline-block;
+  background-color: #F7F7F7;
+  max-width: 400px;
+}
+
+.flows-container {
+  background-color: #F7F7F7;
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.sliders {
+  max-width: 392px;
+}
+
+.nav_bar {
+  max-width: 392px;
+}
+
+.search_bar {
+  max-width: 392px;
+}
+
+.star_rating {
+  max-width: 193px;
+}
+
+.progress_dots {
+  max-width: 108px;
+}
+
 a{
     color: #000000;
 }
@@ -86,9 +191,23 @@ a:visited{
 .container {
   padding: 0 20px;
 }
+
 .row {
+  margin: 60px;
+}
+
+.smallrow {
+  margin: 40px;
+}
+
+.largerow {
+  margin: 120px;
+}
+
+.my-work {
   margin: 24px 0 60px 0;
 }
+
 header {
   background-color: #ffffff;
   position: fixed;
@@ -180,6 +299,12 @@ footer div div p {
   margin: 40px 0;
 }
 
+.bar {
+  width: 85px;
+  height: 3px;
+  margin: 60px 0 0 0;
+}
+
 #hero {
   background-color: #FBFBF9;
   padding: 20px;
@@ -192,6 +317,6 @@ footer div div p {
   background-color: #ffffff;
 }
 #casestudy {
-  background-color: #ffffff;
-  padding: 20px;
+  width: 100%;
+  margin: 40px 0;
 }
