@@ -12,21 +12,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<header>
-    <div class="header-container">
-        <a href="index.html">
-            <img class="logo" src="img/logo.svg" alt="ashley kanas">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="img/icons/icon_home.svg" alt="home" width="16" height="16"></a></li>
-                <li><a href="about.html"><img src="img/icons/icon_about.svg" alt="about me" width="14" height="16"></a></li>
-                <li><a href="#contact"><img src="img/icons/icon_contact.svg" alt="contact" width="16" height="12"></a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<main>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img class="logo" src="img/logo.svg" alt="ashley kanas">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img class="home" src="img/icons/icon_home.svg" alt="home"></a>
+                    </li>
+                    <li><a href="about.html"><img class="about_me" src="img/icons/icon_about.svg" alt="about me"></a></li>
+                    <li><a href="#contact"><img class="nav_contact" src="img/icons/icon_contact.svg" alt="contact"></a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
     <div id="hero" class="container">
         <div>
             <h1>
@@ -43,11 +43,11 @@
         <div>
             <h2>my work</h2>
             <div class="my-work">
-                <div>
-                    <h3>crave</h3>
+                <h3>crave</h3>
+                <div class="col-md-6">
                     <picture>
                         <source srcset="img\homepage_imgs\crave_home@2x(1).jpg" media="(max-width:767px)">
-                        <img src="img\homepage_imgs\crave_home@1x(1).jpg" alt="Crave img">
+                        <img class="pic_padding" src="img\homepage_imgs\crave_home@1x(1).jpg" alt="Crave img">
                     </picture>
                 </div>
                 <div>
@@ -55,6 +55,7 @@
                     <a href="crave.html" class="button">view project</a>
                 </div>
             </div>
+            <div class="largerow"></div>
             <!-- <div class="my-work">
                 <div>
                     <h3>remi</h3>

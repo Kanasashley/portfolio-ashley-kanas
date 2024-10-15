@@ -242,6 +242,21 @@ a:visited{
   margin: 24px 0 60px 0;
 }
 
+.home {
+  height: 16px;
+  width: 16px;
+}
+
+.about_me {
+  height: 16;
+  width: 14px;
+}
+
+.nav_contact {
+  height: 12px;
+  width: 16px;
+}
+
 header {
   background-color: #ffffff;
   position: fixed;
@@ -259,7 +274,8 @@ header {
 }
 
 .logo {
-  max-width: 150px;
+  width: 150px;
+  height: 55px;
 }
 
 nav ul {
@@ -267,6 +283,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex; /* Align nav items horizontally */
+  place-items: center;
 }
 
 nav ul li {
@@ -282,6 +299,7 @@ main , footer {
   top: 130px;
   z-index: 1;
 }
+
 
 .contact-buttons {
   max-width: 353px;
@@ -350,7 +368,95 @@ footer div div p {
   margin: 20px 20px 40px;
   background-color: #ffffff;
 }
-#casestudy {
-  width: 100%;
-  margin: 40px 0;
+
+
+@media only screen and (min-width: 540px) {
+  header {
+    padding: 0 12px;
+  }
+  .logo {
+    width: 225px;
+    height: 82px;
+  }
+
+  .home {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .about_me {
+    height: 24;
+    width: 21px;
+  }
+  
+  .nav_contact {
+    height: 18px;
+    width: 24px;
+  }
+
+  nav ul li {
+    margin-left: 32px; /* Space between nav items */
+  }
+
+  .container {
+    padding: 0 32px;
+  }
+
+  #hero {
+    padding: 32px;
+  }
+
+  #about {
+    margin: 40px 32px 40px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  header {
+    padding: 0 24px;
+  }
+
+  nav ul li {
+    margin-left: 40px; /* Space between nav items */
+  }
+
+  .container {
+    padding: 0 44px;
+  }
+
+  #hero {
+    padding: 44px;
+  }
+
+  #about {
+    margin: 40px 44px 40px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  p {
+    font-size: 14pt;
+  }
+
+  .pic_padding {
+    padding: 0 40px 0 0;
+  }
+}
+
+@media only screen and (min-width: 905px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  p {
+    font-size: 14pt;
+  }
+
+  .pic_padding {
+    padding: 0 40px 0 0;
+  }
 }
