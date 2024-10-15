@@ -119,6 +119,22 @@ img {
   display: inline-block;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: space-evenly; /* Aligns items evenly in the row */
+  flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
+  text-align: left;
+  gap: 40px;
+}
+
+.skills {
+  display: inline-block;
+  width: 252px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px 0;
+}
+
 .sliders {
   max-width: 392px;
 }
