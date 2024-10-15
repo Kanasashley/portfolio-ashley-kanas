@@ -121,14 +121,32 @@ img {
 
 .skills-container {
   display: flex;
-  justify-content: space-evenly; /* Aligns items evenly in the row */
+  justify-content: flex-start; /* Aligns items evenly in the row */
   flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
   text-align: left;
   gap: 40px;
+  width: 100%;
 }
 
 .skills {
-  display: inline-block;
+  flex: 1 1 252px;
+  width: 252px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.skills-tools-container {
+  display: flex;
+  justify-content: flex-start; /* Aligns items evenly in the row */
+  flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
+  text-align: left;
+  gap: 700px;
+  width: 100%;
+}
+
+.skills-tools {
+  flex: 1 1 252px;
   width: 252px;
   box-sizing: border-box;
   text-align: left;
