@@ -4,7 +4,7 @@
 
 p{
   font-family: "Outfit", sans-serif;
-  font-size: 17pt;
+  font-size: 14pt;
   font-weight: 200;
   line-height: 150%;
 }
@@ -32,28 +32,28 @@ h3{
 
 h4{
     font-family: "Outfit", sans-serif;
-    font-size: 17pt;
+    font-size: 14pt;
     font-weight: 300;
     line-height: 150%;
 }
 
 .crave-h1 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 24pt;
+  font-size: 20pt;
   font-weight: 600;
   line-height: 150%;
 }
 
 .crave-h2 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 17pt;
+  font-size: 14pt;
   font-weight: 700;
   line-height: 150%;
 }
 
 .crave-h2-centered {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 17pt;
+  font-size: 14pt;
   font-weight: 700;
   line-height: 150%;
   text-align: center;
@@ -62,7 +62,7 @@ h4{
 
 .crave-p1 {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 17pt;
+  font-size: 14pt;
   font-weight: 400;
   line-height: 150%;
 }
@@ -129,28 +129,11 @@ img {
 }
 
 .skills {
-  flex: 1 1 252px;
+  flex: 0 0 252px;
   width: 252px;
   box-sizing: border-box;
   text-align: left;
-  margin: 20px 0;
-}
-
-.skills-tools-container {
-  display: flex;
-  justify-content: flex-start; /* Aligns items evenly in the row */
-  flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
-  text-align: left;
-  gap: 700px;
-  width: 100%;
-}
-
-.skills-tools {
-  flex: 1 1 252px;
-  width: 252px;
-  box-sizing: border-box;
-  text-align: left;
-  margin: 20px 0;
+  margin: 0 0 0 20px;
 }
 
 .sliders {
@@ -239,7 +222,7 @@ a:visited{
 }
 
 .my-work {
-  margin: 24px 0 60px 0;
+  margin: 24px 0 100px 0;
 }
 
 .home {
@@ -269,7 +252,7 @@ header {
   display: flex;
   justify-content: space-between; /* Align logo to the left, nav to the right */
   align-items: center; /* Vertically center the content */
-  padding: 70px 20px 20px 0px;
+  padding: 70px 20px 8px 0px;
   width: 100%;
 }
 
@@ -335,6 +318,14 @@ main , footer {
 #contact {
   background-color: #FBFBF9;
   padding: 20px;
+  max-width: 410px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+footer {
+  background-color: #FBFBF9;
 }
 
 footer div p {
@@ -388,6 +379,12 @@ footer div div p {
     height: 24;
     width: 21px;
   }
+
+  .profile-photo {
+    width: 476px;
+    display: block;
+    margin: 0 auto;
+  }
   
   .nav_contact {
     height: 18px;
@@ -409,11 +406,19 @@ footer div div p {
   #about {
     margin: 40px 32px 40px;
   }
+
+  .container {
+    padding: 0 32px;
+  }
 }
 
 @media only screen and (min-width: 800px) {
   header {
     padding: 0 24px;
+  }
+
+  .header-container {
+    padding: 20px 20px 0px 0px;
   }
 
   nav ul li {
@@ -425,25 +430,17 @@ footer div div p {
   }
 
   #hero {
-    padding: 44px;
+    padding: 20px 44px 44px 44px;
   }
 
   #about {
     margin: 40px 44px 40px;
   }
 
-  .col-md-6 {
-    width: 50%;
-    float: left;
+  .container {
+    padding: 0 44px;
   }
 
-  p {
-    font-size: 14pt;
-  }
-
-  .pic_padding {
-    padding: 0 40px 0 0;
-  }
 }
 
 @media only screen and (min-width: 905px) {
@@ -452,6 +449,14 @@ footer div div p {
     float: left;
   }
 
+  .my-work {
+    height: 410px;
+  }
+
+  .largerow {
+    clear: both;
+  }
+
   p {
     font-size: 14pt;
   }
@@ -460,3 +465,5 @@ footer div div p {
     padding: 0 40px 0 0;
   }
 }
+
+
