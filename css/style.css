@@ -346,6 +346,52 @@ footer div div p {
   background-color: #ffffff;
 }
 
+.blush {
+  width: 100px;
+  height: 100px;
+  animation: gradientColorChange 2s infinite alternate;
+}
+
+.eye1, .eye2 {
+  animation: moveEyes 3s infinite alternate;
+}
+
+.stop1 {
+  animation: gradientColorChange 3s infinite alternate;
+}
+
+.stop2 {
+  animation: gradientStopOpacityChange 3s infinite alternate;
+}
+
+@keyframes gradientColorChange {
+  0% {
+    stop-color: #EAE0DC; /* Original color */
+  }
+  100% {
+    stop-color: #DEC0B5; /* New color */
+  }
+}
+
+@keyframes gradientStopOpacityChange {
+  0% {
+    stop-color: #D9C7C0; /* Original color */
+    stop-opacity: 0;
+  }
+  100% {
+    stop-color: #D0A595; /* New color */
+    stop-opacity: 0;
+  }
+}
+
+@keyframes moveEyes {
+  0% {
+    transform: translateX(0); /* Start at original position */
+  }
+  100% {
+    transform: translateX(20px); /* Move 50px to the right */
+  }
+}
 
 @media only screen and (min-width: 540px) {
   header {
