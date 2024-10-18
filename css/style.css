@@ -42,6 +42,9 @@ h4{
   font-size: 20pt;
   font-weight: 600;
   line-height: 150%;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .crave-h2 {
@@ -57,6 +60,9 @@ h4{
   font-weight: 700;
   line-height: 150%;
   text-align: center;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -75,8 +81,15 @@ h4{
   line-height: 150%;
 }
 
+.persona_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
 .persona-img {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -102,17 +115,30 @@ img {
   max-width: 300px;
 }
 
+.flow_img {
+  max-width: 700px;
+  display: block;
+  margin: 60px auto 120px;
+
+}
+
 .flows {
-  display: inline-block;
+  flex: 0 0 400px;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0 0 0 20px;
   background-color: #F7F7F7;
-  max-width: 400px;
 }
 
 .flows-container {
   background-color: #F7F7F7;
+  display: flex;
+  justify-content: flex-start; /* Aligns items evenly in the row */
+  flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
+  text-align: left;
+  gap: 40px;
   width: 100%;
-  display: inline-block;
-  padding: 20px;
+  margin: 0 auto;
 }
 
 .inline-block {
@@ -212,14 +238,20 @@ a.button:hover {
 
 .row {
   margin: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .smallrow {
   margin: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .largerow {
   margin: 120px;
+  display: flex;
+  flex-direction: column;
 }
 
 .my-work {
@@ -332,6 +364,13 @@ footer div div p {
   width: 85px;
   height: 3px;
   margin: 60px 0 0 0;
+  display: block;
+}
+
+.crave_pic {
+  max-width: 750px;
+  display: block;
+  margin: 0 auto;
 }
 
 #hero {
@@ -353,15 +392,15 @@ footer div div p {
 }
 
 .eye1, .eye2 {
-  animation: moveEyes 3s infinite alternate;
+  animation: moveEyes 2s infinite alternate;
 }
 
 .stop1 {
-  animation: gradientColorChange 3s infinite alternate;
+  animation: gradientColorChange 2s infinite alternate;
 }
 
 .stop2 {
-  animation: gradientStopOpacityChange 3s infinite alternate;
+  animation: gradientStopOpacityChange 2s infinite alternate;
 }
 
 @keyframes gradientColorChange {
@@ -442,6 +481,13 @@ footer div div p {
   .container {
     padding: 0 32px;
   }
+
+  .pic_padding_svg {
+    padding: 0 40px 40px 0;
+    max-width: 476px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -494,7 +540,11 @@ footer div div p {
   }
 
   .pic_padding {
-    padding: 0 40px 0 0;
+    padding: 0 40px 40px 0;
+  }
+
+  .pic_padding_svg {
+    padding: 0 40px 40px 0;
   }
 }
 
