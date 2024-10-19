@@ -123,10 +123,11 @@ img {
 }
 
 .flows {
-  flex: 0 0 400px;
+  max-width: 517px;
   box-sizing: border-box;
+  width: 100%;
   text-align: left;
-  margin: 0 0 0 20px;
+  margin: 0 20px;
   background-color: #F7F7F7;
 }
 
@@ -135,7 +136,7 @@ img {
   display: flex;
   justify-content: flex-start; /* Aligns items evenly in the row */
   flex-wrap: wrap; /* Ensures the items wrap if the screen size is too small */
-  text-align: left;
+  text-align: center;
   gap: 40px;
   width: 100%;
   margin: 0 auto;
@@ -470,6 +471,10 @@ footer div div p {
     padding: 0 32px;
   }
 
+  .flows {
+    margin: 0 32px;
+  }
+
   #hero {
     padding: 32px;
   }
@@ -505,6 +510,10 @@ footer div div p {
 
   .container {
     padding: 0 44px;
+  }
+
+  .flows {
+    margin: 0 44px;
   }
 
   #hero {
