@@ -263,8 +263,8 @@ a:visited{
   padding: 12px 16px;
   border-radius: 50px;
   text-decoration: none;
-  transition: 0.2s opacity;
-  transition-property: opacity;
+  transition: 0.4s ease; /* Slower duration to make it more noticeable */
+  transition-property: background-color, opacity; /* Include background-color */
   margin-right: auto;
 }
 
