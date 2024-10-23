@@ -313,7 +313,21 @@ a.button:hover {
 }
 
 .my-work {
-  margin: 24px 0 100px 0;
+  margin: 32px 0 60px;
+}
+
+.pic_padding {
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+.shadow {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shadow2 {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 26px;
 }
 
 header {
@@ -432,6 +446,39 @@ main , footer {
 .social ul li a:hover::after {
   transform: scaleX(1); /* Expand underline on hover */
 }
+
+/* Style for the Floating Action Button */
+#scrollTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  bottom: 20px; /* Position from the bottom */
+  right: 30px; /* Position from the right */
+  z-index: 99; /* Make sure it stays on top */
+  border: none;
+  outline: none;
+  background-color: #D9C7C0; /* Button color */
+  color: #000000; /* Text color */
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px; /* Circular button */
+  font-size: 18px;
+  transition: opacity 0.3s; /* Smooth fade-in transition */
+}
+
+#scrollTopBtn:hover {
+  background-color: #EAE0DC; /* Lighter color on hover */
+}
+
+/* Show the button when scrolled a bit down */
+.showBtn {
+  display: block;
+  opacity: 0.8; /* Initially semi-visible */
+}
+
+.showBtn:hover {
+  opacity: 1; /* Fully visible on hover */
+}
+
 
 #contact {
   background-color: #FBFBF9;
@@ -595,13 +642,6 @@ footer div div p {
     padding: 0 32px;
   }
 
-  .pic_padding_svg {
-    padding: 0 40px 40px 0;
-    max-width: 476px;
-    display: block;
-    margin: 0 auto;
-  }
-
   .mockup2 {
     max-width: 650px;
     margin: 0 auto;
@@ -676,11 +716,13 @@ footer div div p {
 @media only screen and (min-width: 905px) {
   .col-md-6 {
     width: 50%;
+    height: 100%;
     float: left;
   }
 
   .my-work {
-    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .largerow {
@@ -692,11 +734,8 @@ footer div div p {
   }
 
   .pic_padding {
-    padding: 0 40px 40px 0;
-  }
-
-  .pic_padding_svg {
-    padding: 0 40px 40px 0;
+    padding: 0 40px 0 0;
+    max-width: 100%;
   }
 }
 
