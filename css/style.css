@@ -352,58 +352,21 @@ header {
   margin-left: 20px;
 }
 
-.navtoggle {
-  position: relative;
-  margin-left: auto; 
-}
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
-
-.navtoggle.responsive ul {
-  display: block;
-}
-
-.navtoggle.responsive li {
-  display: block;
-  padding: 10px 0; 
-}
-
-.navtoggle.responsive .nav_close {
-  display: inline;
-}
-
-.nav_hamburger {
-  display: inline;
-}
-
-.navtoggle.responsive .nav_hamburger {
-  display: none;
-}
-
 nav ul {
   list-style-type: none;
-  margin: 1em 0;
   padding: 0;
-  display: flex;
-  align-items: center;
+  margin: 0;
+  display: flex; /* Align nav items horizontally */
 }
 
 nav ul li {
-  margin-left: 20px;
-  position: relative;
+  margin-left: 20px; /* Space between nav items */
 }
 
-.navtoggle.responsive nav ul {
-  display: block;
-}
 
 nav ul li a {
   display: block;
   padding: 0;
-  text-decoration: none;
-  position: relative;
 }
 
 .icon {
@@ -434,7 +397,6 @@ main , footer {
   top: 130px;
   z-index: 1;
 }
-
 
 .contact-buttons {
   max-width: 353px;
