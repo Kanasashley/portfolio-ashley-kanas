@@ -27,16 +27,22 @@
     <header>
         <div class="header-container">
             <a href="index.html">
-                <img class="logo" src="img/logo.svg" alt="ashley kanas">
+              <img class="logo" src="img/logo.svg" alt="ashley kanas">
             </a>
-            <nav>
+            <div class="navtoggle" id="myNavtoggle">
+              <nav>
                 <ul>
-                    <li><a href="index.html"><img class="home" src="img/icons/icon_home.svg" alt="home"></a>
-                    </li>
-                    <li><a href="about.html"><img class="about_me" src="img/icons/icon_about.svg" alt="about me"></a></li>
-                    <li><a href="#contact"><img class="nav_contact" src="img/icons/icon_contact.svg" alt="contact"></a></li>
+                  <li><a href="index.html"><img class="home" src="img/icons/icon_home.svg" alt="home"></a></li>
+                  <li><a href="about.html"><img class="about_me" src="img/icons/icon_about.svg" alt="about me"></a></li>
+                  <li><a href="#contact"><img class="nav_contact" src="img/icons/icon_contact.svg" alt="contact"></a></li>
+                  <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <img class="nav_hamburger" src="img/icons/icon_menu.svg" alt="menu">
+                    <img class="nav_close" src="img/icons/icon_close.svg" alt="close" style="display: none;">
+                  </a></li>
                 </ul>
-            </nav>
+              </nav>
+            </div>
+          </div>
     </header>
     <main>
         <div>
