@@ -896,7 +896,7 @@ footer div div p {
   .flows {
     box-sizing: border-box;
     text-align: left;
-    padding: 20px auto 80px;
+    padding: 20px 0 80px;
     display: inline-block;
     width: 320px;
   }
