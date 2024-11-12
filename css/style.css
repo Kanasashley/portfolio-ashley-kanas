@@ -531,7 +531,7 @@ nav ul li a:hover::after {
 
 main , footer {
   position: relative;
-  top: 130px;
+  top: 93px;
   z-index: 1;
 }
 
@@ -805,7 +805,7 @@ footer div div p {
   }
 
   .icon_down {
-    margin: 200px auto 0;
+    margin: 70px auto 0;
   }
 
   .button {
@@ -831,7 +831,7 @@ footer div div p {
   }
   
   .h1_white {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     font-size: 48px;
   }
   
@@ -934,7 +934,7 @@ footer div div p {
   }
 
   #hero {
-    padding: 150px 60px 70px 60px;
+    padding: 70px 60px 70px 60px;
   }
 
   #about {
@@ -985,7 +985,6 @@ footer div div p {
 
 @media only screen and (min-width: 905px) {
   .h1_white {
-    padding-bottom: 100px;
     font-size: 60px;
   }
   
@@ -1038,7 +1037,7 @@ footer div div p {
   }
 
   #hero {
-    padding: 100px 100px 44px 100px;
+    padding: 70px 100px 44px 100px;
   }
 
   #about {
